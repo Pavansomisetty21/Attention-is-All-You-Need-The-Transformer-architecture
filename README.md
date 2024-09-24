@@ -1,5 +1,11 @@
 # Attention-is-All-You-Need-The-Transformer-architecture
 In this we explore detailed architecture of Transformer
+<div align="center">
+  
+![image](https://www.tensorflow.org/images/tutorials/transformer/transformer.png)
+
+</div>
+
 The **Transformer architecture**, introduced in the 2017 paper *"Attention is All You Need"* by Vaswani et al., revolutionized natural language processing (NLP) and other machine learning domains. The architecture's key innovation is the **self-attention mechanism**, which allows it to weigh the importance of different words in a sentence or sequence, regardless of their position. Transformers outperform recurrent architectures (like LSTMs and GRUs) by allowing for much more parallelization and handling long-range dependencies effectively.
 
 ### High-Level Overview
