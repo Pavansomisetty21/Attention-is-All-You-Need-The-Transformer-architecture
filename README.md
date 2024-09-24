@@ -40,9 +40,17 @@ Given an input sequence, the self-attention mechanism works as follows:
 
 The equation for scaled dot-product attention is:
 
+The attention mechanism is defined as:
 \[
 \text{Attention}(Q, K, V) = \text{softmax}\left(\frac{Q K^T}{\sqrt{d_k}}\right) V
 \]
+
+Where:
+- **Q**: The Query matrix (represents the current word's feature vector).
+- **K**: The Key matrix (represents the feature vectors of all words).
+- **V**: The Value matrix (also represents the feature vectors of all words).
+- **\(d_k\)**: The dimensionality of the key vectors (used for scaling).
+
 
 Where \(d_k\) is the dimensionality of the queries and keys.
 
